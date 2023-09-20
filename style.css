@@ -1,0 +1,59 @@
+h1{
+     text-shadow: 2px 2px 5px red;
+}
+
+span{
+    color: red;
+}
+div p:nth-of-type(2n-1){
+    background-color: antiquewhite;
+}
+div p:only-of-type{
+    background-color: lightblue;
+      font-family: "Lucida Console", "Courier New", monospace;
+}
+div p:only-child{
+    background-color: aquamarine;
+}
+input:optional{
+    background-color: green;
+}
+input:required{
+    background-color: red;
+}
+input:read-only{
+    background-color: orangered;
+}
+.main div{
+    display: none;
+}
+.main div:target{
+    display: block;
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+}
+.pro
+p::first-line{
+    color: green
+}
+
+p::first-letter{
+    font-size: 30px;
+    color: darkgreen;
+}
+span::first-line{
+    color: bisque;
+}
+p.un::first-line{
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(20, 0, 203);
+    
+}
+h3::before{
+    content: "5"+"5";
+}h3::after{
+    content: " I'm after";
+    color: green;
+}
